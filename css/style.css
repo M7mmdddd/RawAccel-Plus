@@ -1,0 +1,58 @@
+
+/* From Uiverse.io by rhino-corey */ 
+
+
+.red-hat {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+
+
+
+.activate{
+    color: white;
+    background-color: #7819E4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+  }
+
+  .activate2{
+    background-color: #430082;
+  }
+
+
+  .version::-webkit-scrollbar {
+    width: 5px !important;
+}
+
+.version::-webkit-scrollbar-thumb, .navbar::-webkit-scrollbar-thumb {
+    background: transparent !important;
+    transition: background 0.3s !important;
+}
+
+.version:hover::-webkit-scrollbar-thumb, .navbar:hover::-webkit-scrollbar-thumb {
+    background: rgb(140, 136, 136) !important;
+}
+
+.ad-container::before{
+    content: "Advertisement";
+    display: block;
+    width: 100%;
+    color: #999999;
+    text-align: center;
+    padding: 4px;
+    font-size: 10px;
+}
